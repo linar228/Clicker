@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Clicker.Page.RegPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#EDCBC6">
+            <Image Source="logo.png" HeightRequest="250" Margin="30, 30, 30, 0"/>
+            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
+                <Entry x:Name="EmailEntry" Placeholder="ФИО" Margin="-15,-15"/>
+            </Frame>
+            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
+                <Entry x:Name="PasswordEntry" Placeholder="Номер телефона" Margin="-15,-15"/>
+            </Frame>
+            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
+                <Entry x:Name="EmailEntry" Placeholder="Email" Margin="-15,-15"/>
+            </Frame>
+            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
+                <Entry x:Name="PasswordEntry" Placeholder="Пароль" IsPassword="True" Margin="-15,-15"/>
+            </Frame>
+            <StackLayout Orientation="Vertical" Spacing="40">
+                <Button Text="Создать аккаунт"  Margin="30, 0, 30, 0" BackgroundColor="#F93F26" BorderColor="Black" CornerRadius="50" TextColor="White"></Button>
+                <Button Text="Назад"  Margin="30, -30, 30, 0" HeightRequest="50" BackgroundColor="#F93F26" CornerRadius="50" BorderColor="Black" TextColor="White"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

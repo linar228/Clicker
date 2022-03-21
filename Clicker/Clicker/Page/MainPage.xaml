@@ -13,7 +13,7 @@
             </Frame>
             <StackLayout Orientation="Vertical" Spacing="40">
                 <Button Text="Авторизоваться"  Margin="30, 30, 30, 0" BackgroundColor="#F93F26" BorderColor="Black" CornerRadius="50" TextColor="White"></Button>
-                <Button Text="Создать аккаунт"  Margin="30, -15, 30, 0" HeightRequest="50" BackgroundColor="#F93F26" CornerRadius="50" BorderColor="Black" TextColor="White"></Button>
+                <Button Clicked="RegButton_Clicked" Text="Создать аккаунт"  Margin="30, -15, 30, 0" HeightRequest="50" BackgroundColor="#F93F26" CornerRadius="50" BorderColor="Black" TextColor="White"></Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

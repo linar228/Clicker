@@ -14,5 +14,10 @@ namespace Clicker
         {
             InitializeComponent();
         }
+
+        private async void RegButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page.RegPage());
+        }
     }
 }
