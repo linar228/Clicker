@@ -4,22 +4,22 @@
              x:Class="Clicker.Page.RegPage">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#EDCBC6">
-            <Image Source="logo.png" HeightRequest="250" Margin="30, 30, 30, 0"/>
-            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
-                <Entry x:Name="EmailEntry" Placeholder="ФИО" Margin="-15,-15"/>
+            <Image Source="logo.png" HeightRequest="250" Margin="30, -10, 30, 0"/>
+            <Frame BorderColor="Black" Margin="30,-20,30,0" BackgroundColor="#fb7d6c">
+                <Entry x:Name="FIOEntry" Placeholder="ФИО" Margin="-15,-15"/>
             </Frame>
-            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
-                <Entry x:Name="PasswordEntry" Placeholder="Номер телефона" Margin="-15,-15"/>
+            <Frame BorderColor="Black" Margin="30,20,30,0" BackgroundColor="#fb7d6c">
+                <Entry x:Name="NumberEntry" Placeholder="Номер телефона" Margin="-15,-15"/>
             </Frame>
-            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
+            <Frame BorderColor="Black" Margin="30,20,30,0" BackgroundColor="#fb7d6c">
                 <Entry x:Name="EmailEntry" Placeholder="Email" Margin="-15,-15"/>
             </Frame>
-            <Frame BorderColor="Black" Margin="30,10" BackgroundColor="#fb7d6c">
+            <Frame BorderColor="Black" Margin="30,20" BackgroundColor="#fb7d6c">
                 <Entry x:Name="PasswordEntry" Placeholder="Пароль" IsPassword="True" Margin="-15,-15"/>
             </Frame>
             <StackLayout Orientation="Vertical" Spacing="40">
                 <Button Text="Создать аккаунт"  Margin="30, 0, 30, 0" BackgroundColor="#F93F26" BorderColor="Black" CornerRadius="50" TextColor="White"></Button>
-                <Button Text="Назад"  Margin="30, -30, 30, 0" HeightRequest="50" BackgroundColor="#F93F26" CornerRadius="50" BorderColor="Black" TextColor="White"></Button>
+                <Button Clicked="BackButton_Clicked" Text="Назад"  Margin="30, -20, 30, 0" HeightRequest="50" BackgroundColor="#F93F26" CornerRadius="50" BorderColor="Black" TextColor="White"></Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
